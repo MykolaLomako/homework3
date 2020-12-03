@@ -1,0 +1,218 @@
+/*сброс настроек оформления по умолчанию*/
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+:root {
+  --colmain: #2196f3;
+  --colsec: #212121;
+  --colwhite: #ffffff;
+  --colgrey: #757575;
+  --colsubgrey: #f5f4fa;
+}
+/* main styles*/
+.logo-web {
+  color: var(--colmain);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-studio {
+  color: var(--colsec);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+/*navigation in header*/
+.links-pages {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--colsec);
+}
+
+.links-pages:hover,
+.links-pages:focus {
+  color: var(--colmain);
+}
+
+.links-pages.current {
+  color: var(--colmain);
+}
+
+.mail-telephone a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--colgrey);
+}
+
+.mail-telephone a:hover,
+.mail-telephone a:focus {
+  color: var(--colmain);
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--colwhite);
+}
+
+.button-link {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: var(--colmain);
+  border-radius: 4px;
+}
+
+.button-link span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--colwhite);
+}
+
+.general-description h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--colsec);
+}
+
+.general-description p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: var(--colgrey);
+}
+
+.work-team {
+  background-color: var(--colsubgrey);
+}
+.section-headers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--colsec);
+}
+
+.employees h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--colsec);
+}
+
+.employees p {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--colgrey);
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer .logo-studio {
+  color: var(--colwhite);
+}
+
+address p {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+
+  letter-spacing: 0.03em;
+  color: var(--colwhite);
+}
+
+address a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*styles for main section portfolio webpage*/
+
+.button-link-portfolio button {
+  background: var(--colsubgrey);
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  /*styles for text in button-link*/
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: var(--colsubgrey);
+
+  color: var(--colsec);
+}
+
+.button-link-portfolio button:hover,
+.button-link-portfolio button:focus {
+  background: var(--colmain);
+  color: var(--colwhite);
+}
+
+.images-projects h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: var(--colsec);
+}
+
+.images-projects p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  color: var(--colgrey);
+}
