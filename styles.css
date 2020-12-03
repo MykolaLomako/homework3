@@ -35,6 +35,29 @@ body {
 }
 
 /*navigation in header*/
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.nav-container-item:last-child {
+  margin-right: 0px;
+}
+
+.nav-container-item {
+  margin-right: 50px;
+  /*background-color: red;*/
+}
+.mail-telephone {
+  display: flex;
+  align-items: center;
+}
+.mail-telephone-item {
+  margin-right: 50px;
+  /* background-color: red;*/
+}
+.mail-telephone-item:last-child {
+  margin-right: 0px;
+}
 .links-pages {
   font-weight: 500;
   font-size: 14px;
