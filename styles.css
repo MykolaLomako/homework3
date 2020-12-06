@@ -18,7 +18,15 @@ body {
   --colgrey: #757575;
   --colsubgrey: #f5f4fa;
 }
+
+.page-main-container {
+  width: 1600px;
+}
 /* main styles*/
+.logo {
+  display: block;
+  height: 31px;
+}
 .logo-web {
   color: var(--colmain);
   font-family: Raleway, sans-serif;
@@ -33,32 +41,78 @@ body {
   font-size: 26px;
   line-height: 31px;
 }
+.logo-container {
+  margin-left: 215px;
+  width: 145px;
+  height: 31px;
+  margin-top: 24px;
+}
 
-/*navigation in header*/
+.header-container {
+  display: flex;
+  height: 80px;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
+  height: 16px;
+  margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.nav-container-item {
+  margin-right: 50px;
+  padding-left: 0px;
+}
+
+.nav-container-item:first-child {
+  width: 49px;
+}
+.nav-container-item:nth-child(2) {
+  width: 77px;
 }
 .nav-container-item:last-child {
   margin-right: 0px;
+  width: 68px;
 }
 
-.nav-container-item {
-  margin-right: 50px;
-  /*background-color: red;*/
+.contacts-links {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--colgrey);
 }
-.mail-telephone {
+.contacts-links:hover,
+.contacts-links:focus {
+  color: var(--colmain);
+}
+.mail-telephone-container {
   display: flex;
-  align-items: center;
+  height: 16px;
+  margin-left: 331px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
+
 .mail-telephone-item {
-  margin-right: 50px;
-  /* background-color: red;*/
+  margin-left: 50px;
+  height: 16px;
 }
 .mail-telephone-item:last-child {
   margin-right: 0px;
+  width: 122px;
+}
+.mail-telephone-item:first-child {
+  width: 135px;
+  margin-left: 0px;
 }
 .links-pages {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -75,20 +129,11 @@ body {
   color: var(--colmain);
 }
 
-.mail-telephone a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--colgrey);
-}
-
-.mail-telephone a:hover,
-.mail-telephone a:focus {
-  color: var(--colmain);
-}
 .hero {
   background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero h1 {
   font-weight: 900;
@@ -96,29 +141,26 @@ body {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
-
   color: var(--colwhite);
+  margin-top: 200px;
+  margin-bottom: 0px;
 }
 
-.button-link {
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.button-hero {
+  width: 200px;
+  height: 50px;
   background: var(--colmain);
   border-radius: 4px;
-}
-
-.button-link span {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--colwhite);
+
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
 
 .general-description h3 {
