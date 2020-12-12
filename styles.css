@@ -345,7 +345,12 @@ address a {
 }
 
 /*styles for main section portfolio webpage*/
-
+.header-container-portfolio {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #ececec;
+}
 .button-link-portfolio button {
   background: var(--colsubgrey);
   border-radius: 4px;
