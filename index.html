@@ -19,26 +19,25 @@
   </head>
 
   <body>
-    <div class="page-main-container">
     <!--   upper panel -->
 
     <header>
       <!-- HEADER CONTAINER -->
       <div class="header-container">
         <!--left part of navigation panel  -->
-        
-          <!-- LOGO -->
-          <div class="logo-container">
+
+        <!-- LOGO -->
+        <div class="logo-container">
           <a class="logo" href=""
             ><b
               ><span class="logo-web">Web</span
               ><span class="logo-studio">Studio</span></b
             ></a
           >
-          </div>
+        </div>
 
-          <!-- Studio Portfolio Contacts -->
-          <nav>
+        <!-- Studio Portfolio Contacts -->
+        <nav>
           <ul class="nav-container">
             <li class="nav-container-item">
               <a class="links-pages current" href="./index.html" rel="nofollow"
@@ -61,10 +60,14 @@
         <!-- E-mail & Telephone -->
         <ul class="mail-telephone-container">
           <li class="mail-telephone-item">
-            <a class="contacts-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-links" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="mail-telephone-item">
-            <a class="contacts-links" href="tel:+380961111111">+38 096 111 11 11 </a>
+            <a class="contacts-links" href="tel:+380961111111"
+              >+38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -74,8 +77,10 @@
 
     <main>
       <section class="hero">
-        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="button-hero">Заказать услугу</button>
+        <div class="hero-container">
+          <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <button class="button-hero">Заказать услугу</button>
+        </div>
       </section>
 
       <section class="general-description">
@@ -114,74 +119,76 @@
         </ul>
       </section>
       <section class="section-work-specification">
-     
-        <h2 class="section-header-specification">Чем мы занимаемся</h2>
+        <div class="section-work-specification-container">
+          <h2 class="section-header-specification">Чем мы занимаемся</h2>
 
-      
-        <ul class="work-specification-list">
-          <li class="work-specification-item">
-            <img
-              src="./images/img1_section2.png"
-              alt="first picture"
-              width="370"
-            />
-          </li>
-          <li class="work-specification-item">
-            <img
-              src="./images/img3_section2.png"
-              alt="second picture"
-              width="370"
-            />
-          </li>
-          <li class="work-specification-item">
-            <img
-              src="./images/img2_section2.png"
-              alt="third picture"
-              width="370"
-            />
-          </li>
-        </ul>
+          <ul class="work-specification-list">
+            <li class="work-specification-item">
+              <img
+                src="./images/img1_section2.png"
+                alt="first picture"
+                width="370"
+              />
+            </li>
+            <li class="work-specification-item">
+              <img
+                src="./images/img3_section2.png"
+                alt="second picture"
+                width="370"
+              />
+            </li>
+            <li class="work-specification-item">
+              <img
+                src="./images/img2_section2.png"
+                alt="third picture"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
-      
+
       <section class="work-team">
-        <h2 class="section-header-team">Наша команда</h2>
-        <ul class="employees">
-          <li class="employees-item">
-            <img src="./images/igor.png" alt="igor" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
-          </li>
-          <li class="employees-item">
-            <img src="./images/olga.png" alt="olga" width="270" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li class="employees-item">
-            <img src="./images/nicholas.png" alt="nicholas" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="employees-item">
-            <img src="./images/michael.png" alt="michael" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+        <div class="work-team-container">
+          <h2 class="section-header-team">Наша команда</h2>
+          <ul class="employees">
+            <li class="employees-item">
+              <img src="./images/igor.png" alt="igor" width="270" />
+              <h3>Игорь Демьяненко</h3>
+              <p>Product Designer</p>
+            </li>
+            <li class="employees-item">
+              <img src="./images/olga.png" alt="olga" width="270" />
+              <h3>Ольга Репина</h3>
+              <p>Frontend Developer</p>
+            </li>
+            <li class="employees-item">
+              <img src="./images/nicholas.png" alt="nicholas" width="270" />
+              <h3>Николай Тарасов</h3>
+              <p>Marketing</p>
+            </li>
+            <li class="employees-item">
+              <img src="./images/michael.png" alt="michael" width="270" />
+              <h3>Михаил Ермаков</h3>
+              <p>UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
       <div class="footer-container-item">
-      <a class="logo-footer" href=""
-        ><b
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></b
-        ></a
-      >
-      <address>
-        <p>г.Киев, пр-т Леси Украинки, 26</p>
-        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-        <p><a href="tel:+380961111111">+38 096 111 11 11 </a></p>
-      </address>
+        <a class="logo-footer" href=""
+          ><b
+            ><span class="logo-web">Web</span
+            ><span class="logo-studio">Studio</span></b
+          ></a
+        >
+        <address>
+          <p>г.Киев, пр-т Леси Украинки, 26</p>
+          <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+          <p><a href="tel:+380961111111">+38 096 111 11 11 </a></p>
+        </address>
       </div>
     </footer>
   </body>
