@@ -25,35 +25,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1230px;
+  width: 1200px;
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 /* header positioning */
-.logo-container {
+/* .logo-container {
   display: flex;
   align-items: center;
   margin-top: 24px;
   margin-bottom: 25px;
+} */
+.nav-container-header {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  /* outline: 2px solid red; */
 }
 .nav-container {
   display: flex;
   align-items: center;
-  margin-left: 93px;
+  margin: 0px 0px 0px 93px;
   padding-left: 0px;
 }
 .mail-telephone-container {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin: 0px 0px 0px auto;
   padding-left: 0px;
 }
 
 /* logo styles */
-/* .logo {
+.logo {
   display: block;
-} */
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
 .logo-web {
   color: var(--colmain);
   font-family: Raleway, sans-serif;
@@ -72,7 +80,7 @@ body {
 /* header navigation links */
 .nav-container-item {
   margin-left: 50px;
-  padding-left: 0px;
+  padding: 5px 0px;
 }
 .nav-container-item:first-child {
   margin-left: 0px;
@@ -96,6 +104,7 @@ header contacts */
 
 .mail-telephone-item {
   margin-left: 50px;
+  padding: 5px 0px;
 }
 .mail-telephone-item:last-child {
   margin-right: 0px;
@@ -129,12 +138,9 @@ header contacts */
   /* outline: 2px solid red; */
 }
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 1230px;
-  margin: 0px auto;
+  width: 1200px;
+  margin: auto;
+  padding-top: 200px;
   padding-left: 15px;
   padding-right: 15px;
   min-height: 600px;
@@ -153,10 +159,8 @@ h1 {
 }
 
 .button-hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
+  display: block;
+  margin: 30px auto 0px auto;
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
@@ -193,7 +197,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1230px;
+  width: 1200px;
   /* margin-top: 94px; */
   margin: 0px auto;
   padding-left: 15px;
@@ -201,13 +205,13 @@ h1 {
 }
 .general-description-item {
   margin-left: 30px;
+  min-width: 270px;
 }
 
 .general-description-item:first-child {
   margin-left: 0px;
 }
 .general-description-header {
-  min-width: 270px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -220,7 +224,6 @@ h1 {
 
 .general-description-textbox {
   margin-bottom: 0px;
-  min-width: 270px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -237,7 +240,7 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 1230px;
+  width: 1200px;
   /* margin-top: 94px; */
   margin: 0px auto;
   padding-left: 15px;
@@ -283,7 +286,7 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 1230px;
+  width: 1200px;
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -308,22 +311,12 @@ h1 {
   padding-left: 0px;
   /*  outline: 2px solid red; */
 }
-.employees-item h3 {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  /* padding-top: 30px; */
-}
-
-.employees-item p {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  min-height: 49px;
-}
 
 .employees-item img {
   display: block;
 }
 .employees h3 {
+  margin: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -334,6 +327,7 @@ h1 {
 }
 
 .employees p {
+  margin: 10px 0px 0px 0px;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -342,11 +336,14 @@ h1 {
   color: var(--colgrey);
 }
 .employees-item {
+  min-width: 270px;
   margin-left: 30px;
   background-color: var(--colwhite);
   border-radius: 0px 0px 4px 4px;
 }
-
+.employees-item-text-container {
+  padding: 30px 50px;
+}
 .employees-item:first-child {
   margin-left: 0px;
 }
@@ -360,7 +357,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 1230px;
+  width: 1200px;
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -384,7 +381,6 @@ address {
 
 address p {
   margin: 0px;
-  padding-top: 9px;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
@@ -392,11 +388,12 @@ address p {
   color: var(--colwhite);
 }
 
-address p:first-child {
-  padding-top: 0px;
-}
+/* address a:first-child {
+  margin-top: 0px;
+} */
 
 address a {
+  margin-top: 9px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -464,7 +461,7 @@ header {
 .images-projects {
   display: flex;
   flex-wrap: wrap;
-  width: 1230px;
+  width: 1200px;
   margin-top: 50px;
   margin-bottom: 0px;
   margin-left: auto;
