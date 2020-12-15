@@ -87,7 +87,6 @@ body {
 /* header navigation links */
 .nav-container-item {
   margin-left: 50px;
-  padding: 5px 0px;
 }
 .nav-container-item:first-child {
   margin-left: 0px;
@@ -97,6 +96,8 @@ body {
 /* 
 header contacts */
 .contacts-links {
+  display: block;
+  padding: 5px 0px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -111,7 +112,6 @@ header contacts */
 
 .mail-telephone-item {
   margin-left: 50px;
-  padding: 5px 0px;
 }
 .mail-telephone-item:last-child {
   margin-right: 0px;
@@ -121,6 +121,7 @@ header contacts */
 }
 .links-pages {
   display: block;
+  padding: 5px 0px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
